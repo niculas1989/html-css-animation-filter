@@ -63,3 +63,10 @@
 
 
 /* OTTO */
+.ex-8-img {
+    transition: 2s;
+}
+.ex-8-img:hover {
+    filter: grayscale(1);
+    border-radius: 15px;
+}
