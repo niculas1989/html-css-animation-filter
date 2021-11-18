@@ -6,6 +6,7 @@
     background: red;
 }
 
+
 /* DUE */
 .ex-2-square {
     transition: 2s;
@@ -13,6 +14,7 @@
 .ex-2-square:active {
     width: 100%;
 }
+
 
 /* TRE */
 .ex-3-square {
@@ -22,6 +24,7 @@
     border-radius: 100%;
 }
 
+
 /* QUATTRO */
 .ex-4-square {
     transition: 1s;
@@ -29,6 +32,7 @@
 .ex-4-square:hover {
     opacity: 0;
 }
+
 
 /* CINQUE */
 .ex-5-square {
@@ -41,11 +45,21 @@
     transform: scale(.5);
 }
 
-/* SEI */
-.ex-6-img {
-    transition: 2s;
-}
 
+/* SEI */
 .ex-6-img:hover {
     filter: grayscale(1);
 }
+
+
+/* SETTE */
+.ex-7-img {
+    transition: 3s;
+}
+
+.ex-7-img:hover {
+    filter: grayscale(1);
+}
+
+
+/* OTTO */
