@@ -3,8 +3,15 @@
     background-color: red;
 }
 
+
 .ex-2-square:active {
     transition: 3s;
     height: 100px;
     width: 100%;
 }
+
+
+.ex-3-square:hover {
+    transition: 2s;
+    border-radius: 50%;
+} 
