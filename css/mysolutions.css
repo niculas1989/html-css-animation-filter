@@ -97,7 +97,7 @@
 
 /* UNDICI */
 .ex-11-icon:hover {
-    animation: spinalittle 2s linear;
+    animation: spinalittle 3s linear;
 }
 @keyframes spinalittle {
     0% {
@@ -108,4 +108,39 @@
     }
     100% {
         transform: rotate(0);
+    }
+}
+
+
+/* DODICI */
+.ex-12-button:hover .ex-12-top-white {
+    animation: moveyourhead 3s linear;
+}
+
+@keyframes moveyourhead {
+    0% {
+        left: 10%;
+    }
+    50% {
+        left: calc(100% - 60px);
+    }
+    100% {
+        left: 10%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: moveyourass 2s linear;
+}
+
+@keyframes moveyourass {
+    0% {
+        right: 20%;
+    }
+    50% {
+        right: calc(100% - 60px);
+    }
+    100% {
+        right: 20%;
+    }
 }
