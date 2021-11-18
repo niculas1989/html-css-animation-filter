@@ -1,23 +1,42 @@
+/* UNO */
+.ex-1-square {
+    transition: 2s;
+}
 .ex-1-square:hover {
-    transition: 1s;
-    background-color: red;
+    background: red;
 }
 
-
+/* DUE */
+.ex-2-square {
+    transition: 2s;
+}
 .ex-2-square:active {
-    transition: 3s;
-    height: 100px;
     width: 100%;
 }
 
-
+/* TRE */
+.ex-3-square {
+    transition: 1s;
+}
 .ex-3-square:hover {
-    transition: 2s;
-    border-radius: 50%;
-} 
+    border-radius: 100%;
+}
 
-
+/* QUATTRO */
+.ex-4-square {
+    transition: 1s;
+}
 .ex-4-square:hover {
-    transition: 3s;
     opacity: 0;
+}
+
+/* CINQUE */
+.ex-5-square {
+    transition: 1s;
+}
+.ex-5-square:hover {
+    transform: scale(2);
+}
+.ex-5-square:active {
+    transform: scale(.5);
 }
